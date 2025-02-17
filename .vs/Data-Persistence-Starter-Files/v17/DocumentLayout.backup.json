@@ -3,27 +3,31 @@
   "WorkspaceRootPath": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|k:\\projects unity 6\\data-persistence-starter-files\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|k:\\projects unity 6\\data-persistence-starter-files\\assets\\scripts\\mainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|k:\\projects unity 6\\data-persistence-starter-files\\assets\\scripts\\brick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\assets\\scripts\\brick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\brick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|k:\\projects unity 6\\data-persistence-starter-files\\assets\\scripts\\deathzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\assets\\scripts\\mainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|k:\\projects unity 6\\data-persistence-starter-files\\assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\assets\\scripts\\deathzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deathzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|k:\\projects unity 6\\data-persistence-starter-files\\assets\\scripts\\paddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\assets\\scripts\\paddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|k:\\projects unity 6\\data-persistence-starter-files\\assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +62,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\Menu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menu.cs",
+              "ToolTip": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\Menu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T03:09:49.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Paddle.cs",
               "DocumentMoniker": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\Paddle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Paddle.cs",
@@ -66,12 +83,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Paddle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T02:54:35.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T02:54:35.447Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DeathZone.cs",
               "DocumentMoniker": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\DeathZone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DeathZone.cs",
@@ -79,25 +95,24 @@
               "RelativeToolTip": "Assets\\Scripts\\DeathZone.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T02:54:31.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T02:54:31.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Brick.cs",
               "DocumentMoniker": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\Brick.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Brick.cs",
               "ToolTip": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\Brick.cs",
               "RelativeToolTip": "Assets\\Scripts\\Brick.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T02:54:27.774Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Ball.cs",
               "DocumentMoniker": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\Ball.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ball.cs",
@@ -105,8 +120,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Ball.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T02:54:24.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T02:54:24.202Z"
             },
             {
               "$type": "Document",
@@ -116,20 +130,20 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
               "ToolTip": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\ScoreManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAWwCcAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwEEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T02:51:57.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainManager.cs",
               "DocumentMoniker": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\MainManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainManager.cs",
               "ToolTip": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\MainManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainManager.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAhwE0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAIAwwAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T02:48:48.537Z",
               "EditorCaption": ""

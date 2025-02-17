@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static ScoreManager;
 
 public class MainManager : MonoBehaviour
 {
@@ -11,21 +12,25 @@ public class MainManager : MonoBehaviour
     public Rigidbody Ball;
 
     public Text ScoreText;
+    public Text BestScoreText;
     public GameObject GameOverText;
-    
+
     private bool m_Started = false;
     private int m_Points;
-    
+
     private bool m_GameOver = false;
 
-    
+    private void Awake()
+    {
+
+    }
     // Start is called before the first frame update
     void Start()
     {
         const float step = 0.6f;
         int perLine = Mathf.FloorToInt(4.0f / step);
-        
-        int[] pointCountArray = new [] {1,1,2,2,5,5};
+
+        int[] pointCountArray = new[] { 1, 1, 2, 2, 5, 5 };
         for (int i = 0; i < LineCount; ++i)
         {
             for (int x = 0; x < perLine; ++x)
@@ -36,6 +41,7 @@ public class MainManager : MonoBehaviour
                 brick.onDestroyed.AddListener(AddPoint);
             }
         }
+        FillScoreBoard();
     }
 
     private void Update()
@@ -61,7 +67,17 @@ public class MainManager : MonoBehaviour
             }
         }
     }
-
+    void FillScoreBoard()
+    {
+        ScoreManager.Instance.Load();
+        Datas scores = ScoreManager.Instance.playersScores;
+        BestScoreText.text = scores.Count == 0 ?  "No scores!" : string.Empty;
+       
+        for (int i = 0; i < scores.Count; i++)
+        {
+            BestScoreText.text += string.Format("{0}: {1}\n\r", scores[i].name, scores[i].points);
+        }
+    }
     void AddPoint(int point)
     {
         m_Points += point;
@@ -72,10 +88,8 @@ public class MainManager : MonoBehaviour
     {
         m_GameOver = true;
         GameOverText.SetActive(true);
-        if(m_Points > ScoreManager.Instance.points)
-        {
-            ScoreManager.Instance.points = m_Points;
-            ScoreManager.Instance.Save();
-        }
+        Debug.Log(ScoreManager.Instance.currentPlayer);
+        ScoreManager.Instance.points = m_Points;
+        ScoreManager.Instance.Save();
     }
 }

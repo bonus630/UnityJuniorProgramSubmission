@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|k:\\projects unity 6\\data-persistence-starter-files\\assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|k:\\projects unity 6\\data-persistence-starter-files\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\assets\\scripts\\mainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\assets\\scripts\\brick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\brick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|k:\\projects unity 6\\data-persistence-starter-files\\assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6070F9DA-46E4-BF8A-676A-9EB4374FC737}|Assembly-CSharp.csproj|K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\assets\\scripts\\deathzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,13 +62,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Menu.cs",
               "DocumentMoniker": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\Menu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu.cs",
               "ToolTip": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\Menu.cs",
               "RelativeToolTip": "Assets\\Scripts\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T03:09:49.038Z",
               "EditorCaption": ""
@@ -99,15 +99,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Brick.cs",
               "DocumentMoniker": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\Brick.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Brick.cs",
               "ToolTip": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\Brick.cs",
               "RelativeToolTip": "Assets\\Scripts\\Brick.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T02:54:27.774Z"
+              "WhenOpened": "2025-02-17T02:54:27.774Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -129,22 +130,23 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
               "ToolTip": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\ScoreManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAWwCcAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAewDUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T02:51:57.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainManager.cs",
               "DocumentMoniker": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\MainManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainManager.cs",
               "ToolTip": "K:\\Projects Unity 6\\Data-Persistence-Starter-Files\\Assets\\Scripts\\MainManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainManager.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAhwE0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwEkAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T02:48:48.537Z"
+              "WhenOpened": "2025-02-17T02:48:48.537Z",
+              "EditorCaption": ""
             }
           ]
         }

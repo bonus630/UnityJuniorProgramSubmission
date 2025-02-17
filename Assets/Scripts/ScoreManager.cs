@@ -10,7 +10,7 @@ public class ScoreManager : MonoBehaviour
     public string currentPlayer;
     public int points;
     private int totalScore = 5;
-    public List<Data> playersScores;
+    public Datas playersScores;
 
 
    
@@ -27,43 +27,64 @@ public class ScoreManager : MonoBehaviour
 
     public void Save()
     {
+        if (string.IsNullOrEmpty(ScoreManager.Instance.currentPlayer))
+            return;
         if (playersScores == null)
-            playersScores = new List<Data>();
+            playersScores =new  Datas();
         int index = -1;
 
         Data data = new Data();
         data.name = ScoreManager.Instance.currentPlayer;
         data.points = ScoreManager.Instance.points;
         
-        for (int i = playersScores.Count; i >= 0; i--)
+        for (int i = playersScores.Count-1; i >= 0; i--)
         {
             if (playersScores[i].points < data.points)
                 index = i;
         }
+        Debug.Log("1:" + index);
         if (index > -1)
         {
-            playersScores.Insert(index, data);
+            playersScores.PlayerScores.Insert(index, data);
 
         }
-        if (playersScores.Count < totalScore) { 
-            if(index == -1)
-                playersScores.Add(data);
+        if (playersScores.Count < totalScore) {
+            Debug.Log("2:" + index);
+            if (index == -1)
+                playersScores.PlayerScores.Add(data);
         }
         else 
         {
-            playersScores.RemoveAt(5);
+            playersScores.PlayerScores.RemoveAt(5);
         }
         string json = JsonUtility.ToJson(playersScores);
+        Debug.Log(json);
         File.WriteAllText(Path.Combine(Application.persistentDataPath, "score.json"), json);
 
     }
     public void Load()
     {
-        string json = File.ReadAllText(Path.Combine(Application.persistentDataPath, "score.json"));
-        playersScores = JsonUtility.FromJson<List<Data>>(json);
+        string path = Path.Combine(Application.persistentDataPath, "score.json");
+        if (!File.Exists(path))
+            return;
+        string json = File.ReadAllText(path);
+        playersScores = JsonUtility.FromJson<Datas>(json);
       
 
     }
+    [System.Serializable]
+    public class Datas
+    {
+        public List<Data> PlayerScores;
+        public Datas()
+        {
+            if (PlayerScores == null)
+                PlayerScores = new List<Data>();
+        }
+        public Data this[int index] { get { return PlayerScores[index]; } set { PlayerScores[index] = value; } }
+        public int Count { get { return PlayerScores.Count; } }
+    }
+
     [System.Serializable]
     public class Data
     {
