@@ -72,5 +72,10 @@ public class MainManager : MonoBehaviour
     {
         m_GameOver = true;
         GameOverText.SetActive(true);
+        if(m_Points > ScoreManager.Instance.points)
+        {
+            ScoreManager.Instance.points = m_Points;
+            ScoreManager.Instance.Save();
+        }
     }
 }
